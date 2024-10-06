@@ -1,0 +1,28 @@
+person:
+
+# string value. single/double quotes
+  # anchoring
+name: &name "Hannah"
+occupation: 'Red Hat Associate'
+
+ # integer value
+  # type casting
+  age: !!float 18 # 18.0
+  gpa: !!str 3.5 # "3.5"
+
+hobbies:
+- painting
+- traveling
+- live music
+
+movies: ["Inglorious Basterds", 'Django']
+
+friends:
+- name: "Jenna"
+  age: 20
+- {name: 'Crista', age: 20}
+
+utilization:
+- name: "Hannah"
+age: 21
+- {name: 'Hannah', age: 21}

@@ -1,0 +1,5 @@
+Github is a continuous version control of cloud environments
+Utilization of commits and pushing to remote repositories from local machines
+Pushing to the remote repositories provides a greater application of version control
+Github repos allow for utilization of branches that can pull from the remote repository 
+The branches can pull and then commit changes and push
